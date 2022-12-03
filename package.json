@@ -1,0 +1,26 @@
+{
+  "name": "tuition-dex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hardhat-compile": "npx hardhat compile",
+    "dex-test": "hardhat test ./test/dex-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.2",
+    "hardhat": "^2.9.2",
+    "hardhat-gas-reporter": "^1.0.8"
+  },
+  "dependencies": {
+    "mock-ethers-provider": "^1.0.2"
+  }
+}
